@@ -92,19 +92,20 @@ nav li{
 }
 
 .textBox1 {
-    background-color: #ffffff;
-    margin: 5px;
+    display: block; 
+    width: fit-content;
+    margin: 10px auto;
+    text-align: left;
+    padding: 10px 15px;
+    background: white;  
 }
 
-.textBox2 {
-    background-color: #ffffff;
-    margin: 5px;
-}
-
-.textBox3 {
-    background-color: #ffffff;
-    margin: 5px;
-}
+/* .boximg {
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-right: 10px;
+} */
 
 .contact {
     width: 100%;
