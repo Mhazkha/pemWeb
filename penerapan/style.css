@@ -45,7 +45,7 @@ header {
 }
 
 nav li{
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: right;
     display: inline-block;
     padding: 11px 20px;
@@ -53,7 +53,7 @@ nav li{
 }
 
 .home {
-   /* background: url(img/bg.png); */
+   background: url(img/bg.png);
    width: 100%;
    min-height: 100vh;
    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%),url(img/bg.png);
@@ -73,39 +73,65 @@ nav li{
 .textBox h1 {
     font-size: 82px;
     padding: 5px;
+    letter-spacing: 30px;
 }
 
-.button {
-    width: 7%;
+/* .button {
     background-color: #7E5EDC;
+    color: white;
+    font-size: 18px;
+    padding: 12px 32px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
 }
+
+.button :hover {
+    background-color: #6A5ACD;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+} */
 
 .about {
+    text-align: center;
+    color: white;
+    background-color: #1E1634;
     width: 100%;
     min-height: 100vh;
-    background-color: #1E1634;
 }
 
 .about h1 {
     font-size: 82px;
     color: #ffffff;
+    text-align: left;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.content img {
+    width: 550px;
+    height: auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .textBox1 {
-    display: block; 
-    width: fit-content;
-    margin: 10px auto;
-    text-align: left;
-    padding: 10px 15px;
-    background: white;  
+    background: white;
+    color: black;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
 }
-
-/* .boximg {
-    float: left;
-    width: 400px;
-    height: 400px;
-    margin-right: 10px;
-} */
 
 .contact {
     width: 100%;
